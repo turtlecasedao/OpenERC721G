@@ -11,7 +11,7 @@
 
 <!-- ANNOUNCEMENT -->
 
-> **📢 To depoly the contracts on mainnet, please contact our technical support that add your major contracts' address to the trusted list**
+> **📢 To depoly the contracts on mainnet, please contact our technical support that add your major contracts' addresses to the trusted list**
 
 _The major contract of ERC721G is based on Azuki's [ERC721A](https://github.com/chiru-labs/ERC721A), thanks a lot._
 
@@ -36,13 +36,13 @@ To cooperate with the ERC721G anti-theft contract to play an effective role, we 
 
 ## Docs
 
-To be continue
+Coming soon
 
 <!-- Upgradeable Version -->
 
 ## Upgradeable Version
 
-To be continue
+Coming soon
 
 <!-- Installation -->
 
@@ -80,6 +80,7 @@ contract Azuki is ERC721A {
 ## Roadmap
 
 - [ ] Improve general repo and code quality (workflows, comments, etc.)
+- [ ] Add features of Reclaim/Judge to ERC721G/BigBrother
 - [ ] Add more documentation on benefits of using ERC721G
 - [ ] Maintain full test coverage
 - [ ] Make decentrialized risk engine(BigBrother) open source
