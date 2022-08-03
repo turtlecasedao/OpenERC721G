@@ -61,12 +61,12 @@ npm install --save-dev erc721g
 Once installed, a basic example on how to inherit the ERC721G in your contract would look like the following. 
 
 ```solidity
-pragma solidity ^0.8.4;
+pragma solidity ^0.8.15;
 
 import "erc721g/contracts/ERC721G.sol";
 
 contract TurtleCaseGang is ERC721G {
-    constructor() ERC721A("TurtleCase Gang", "TCG") {}
+    constructor() ERC721G("TurtleCase Gang", "TCG") {}
 
     function mint(uint256 quantity) external payable {
         // `_mint`'s second argument now takes in a `quantity`, not a `tokenId`.
@@ -80,7 +80,7 @@ contract TurtleCaseGang is ERC721G {
 ## Roadmap
 
 - [ ] Improve general repo and code quality (workflows, comments, etc.)
-- [ ] Add features of Reclaim/Judge to ERC721G/BigBrother
+- [ ] Release features of Reclaim/Judge to ERC721G/BigBrother
 - [ ] Add more documentation on benefits of using ERC721G
 - [ ] Maintain full test coverage
 - [ ] Make decentrialized risk engine(BigBrother) open source
