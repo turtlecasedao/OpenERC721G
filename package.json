@@ -1,10 +1,17 @@
 {
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
-    "@openzeppelin/contracts": "^4.7.2",
     "hardhat": "^2.10.1"
   },
-  "name": "erc721g",
+  "name": "@turtlecasedao/erc721g",
+  "files": [
+    "/contracts/**/*.sol",
+    "/build/contracts/*.json",
+    "!/contracts/mocks/**/*"
+  ],
+  "dependencies": {
+	"@openzeppelin/contracts": "^4.7.2"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -16,7 +23,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/turtlecasedao/OpenERC721G/issues"
   },

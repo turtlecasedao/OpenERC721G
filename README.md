@@ -50,7 +50,7 @@ Coming soon
 
 ```sh
 
-npm install --save-dev erc721g
+npm install --save-dev @turtlecasedao/erc721g
 
 ```
 
