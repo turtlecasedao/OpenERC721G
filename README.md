@@ -63,10 +63,10 @@ Once installed, a basic example on how to inherit the ERC721G in your contract w
 ```solidity
 pragma solidity ^0.8.4;
 
-import "erc721a/contracts/ERC721G.sol";
+import "erc721g/contracts/ERC721G.sol";
 
-contract Azuki is ERC721A {
-    constructor() ERC721A("Azuki", "AZUKI") {}
+contract TurtleCaseGang is ERC721G {
+    constructor() ERC721A("TurtleCase Gang", "TCG") {}
 
     function mint(uint256 quantity) external payable {
         // `_mint`'s second argument now takes in a `quantity`, not a `tokenId`.
