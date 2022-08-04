@@ -79,6 +79,18 @@ contract TurtleCaseGang is ERC721G {
 }
 ```
 
+## Sample .env
+
+```
+PRIVATE_KEY=    # Your Private Key, NEVER show this to others
+API=            # Get this from Infura or other provider
+PUBLIC_KEY=     # Your Public Key
+NETWORK=rinkeby # or mainnet
+API_KEY=        # Get this from Infura or other provider
+REPORT_GAS=true
+REPORT_COVERAGE=true
+```
+
 <!-- ROADMAP -->
 
 ## Roadmap
