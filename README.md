@@ -87,6 +87,7 @@ API=            # Get this from Infura or other provider
 PUBLIC_KEY=     # Your Public Key
 NETWORK=rinkeby # or mainnet
 API_KEY=        # Get this from Infura or other provider
+COINMARKET_KEY= # Get this from coinmarketcap if need
 REPORT_GAS=true
 REPORT_COVERAGE=true
 ```

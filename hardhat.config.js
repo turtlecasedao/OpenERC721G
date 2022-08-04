@@ -2,6 +2,8 @@ require('@nomicfoundation/hardhat-toolbox');
 require('@nomiclabs/hardhat-waffle');
 require('dotenv').config();
 
+const { API, PRIVATE_KEY, NETWORK } = process.env;
+
 if (process.env.REPORT_GAS) {
   require('hardhat-gas-reporter');
 }
@@ -21,11 +23,24 @@ module.exports = {
       },
     },
   },
-  asReporter: {
+  defaultNetwork: NETWORK,
+  networks: {
+    hardhat: {
+      allowUnlimitedContractSize: true
+    },
+    rinkeby: {
+      url: API,
+      accounts: [`0x${PRIVATE_KEY}`]
+    }
+  },
+  gasReporter: {
     token: 'ETH',
     currency: 'USD',
-    coinmarketcap: "01bc3d17-df19-4124-8478-24ba2e4bb89c",
-    enabled: process.env.REPORT_GAS ? true : false
+    coinmarketcap: process.env.COINMARKET_KEY,
+    enabled: process.env.REPORT_GAS
+  },
+  mocha: {
+    timeout: 100000000
   },
   plugins: ['solidity-coverage'],
 };
