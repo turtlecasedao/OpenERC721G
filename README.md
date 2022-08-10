@@ -88,6 +88,8 @@ PUBLIC_KEY=     # Your Public Key
 NETWORK=rinkeby # or mainnet
 API_KEY=        # Get this from Infura or other provider
 COINMARKET_KEY= # Get this from coinmarketcap if need
+ERC721_ADDR=    # Your own ERC721G address
+ORACLE_ADDR=0x025838C946Ed0F3182AF9914296fb9cecDBd2C94
 REPORT_GAS=true
 REPORT_COVERAGE=true
 ```
