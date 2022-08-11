@@ -79,9 +79,9 @@ contract TurtleCaseGang is ERC721G {
 }
 ```
 
-## Usage
+## Binding
 
-Please refer to `sample_scripts/bind.js` for enable the Gaurd mode for ERC721G. You may need to KYC with official technical support for binding oracle's address.
+Please refer to `sample_scripts/bind.js` for enable the Gaurd mode for ERC721G. You may need to KYC with official technical support for registry on bigbrother oracle.
 
 ## Sample .env
 
