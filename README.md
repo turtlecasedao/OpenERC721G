@@ -26,11 +26,13 @@ Since the circulation of NFT, there have been many incidents of theft. These inc
 
 ERC721G is the world's first NFT anti-theft smart contract with three main features: "upgradeable," "scalable," and "secure." Dedicated to NFT asset protection, make Web3 a better place, and more people believe in it.
 
+The first use case for ERC721G is the TurtlecaseGang NFT project, which proved the smart contract’s validity during several hacking events ( Premint websites hacking and Discord exploit incidents). For project details, visit https://opensea.io/collection/turtle-case-gang.
+
 ![Lock/Unlock UI of ERC721G](./image/turtlecase_guard.png)
 
 ### Big Brother
 
-An offically implementation of **TokenPatronus**, read more about [whitepaper](https://arxiv.org/abs/2208.05168).
+An offically implementation of **TokenPatronus**, know more about our [whitepaper](https://arxiv.org/abs/2208.05168).
 
 To cooperate with the ERC721G anti-theft contract to play an effective role, we have launched a set of risk control system: BigBrother. The BigBrother risk control system is an NFT anti-theft protection solution with multi-dimensional analysis and optimistic consensus voting mechanism. It helps NFT holders protect property safety through pre-protection, mid-blocking, and post-compensation. The system has three main parts: operation and maintenance strategy management, intelligent risk analysis, and real-time monitoring of changes.
 
@@ -81,7 +83,7 @@ contract TurtleCaseGang is ERC721G {
 
 ## Binding
 
-Please refer to `sample_scripts/bind.js` for enable the Gaurd mode for ERC721G. You may need to KYC with official technical support for registry on bigbrother oracle.
+When you want to enable `Guard` mode, please refer to `sample_scripts/bind.js` to enable the Gaurd mode of ERC721G. You may need to KYC with official technical support for registry on bigbrother oracle.
 
 ## Sample .env
 

@@ -5,7 +5,7 @@
     "/build/contracts/*.json",
     "!/contracts/mocks/**/*"
   ],
-  "version": "1.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "@openzeppelin/contracts": "^4.7.2"
   },
