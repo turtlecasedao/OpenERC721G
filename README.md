@@ -103,11 +103,9 @@ REPORT_COVERAGE=true
 
 ## Roadmap
 
-- [ ] Improve general repo and code quality (workflows, comments, etc.)
 - [ ] Release features of Reclaim/Judge to ERC721G/BigBrother
-- [ ] Add more documentation on benefits of using ERC721G
-- [ ] Maintain full test coverage
 - [ ] Make decentrialized risk engine(BigBrother) open source
+- [ ] Improve general repo, add more documentation and test cases
 
 <!-- CONTRIBUTING -->
 
