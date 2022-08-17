@@ -1,3 +1,5 @@
+[![NPM][npm-shield]][npm-url]
+[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 <!-- OTHER BADGES -->
 <!-- [![Contributors][contributors-shield]][contributors-url] -->
@@ -143,3 +145,7 @@ Project Link: [https://github.com/turtlecasedao/OpenERC721G](https://github.com/
 
 [license-shield]: https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge
 [license-url]: https://github.com/turtlecasedao/OpenERC721G/blob/main/LICENSE
+[npm-shield]: https://img.shields.io/npm/v/@turtlecasedao/erc721g.svg?style=for-the-badge
+[npm-url]: https://www.npmjs.com/package/@turtlecasedao/erc721g
+[issues-shield]: https://img.shields.io/github/issues/turtlecasedao/OpenERC721G.svg?style=for-the-badge
+[issues-url]: https://github.com/turtlecasedao/OpenERC721G/issues
