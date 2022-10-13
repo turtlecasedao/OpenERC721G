@@ -134,6 +134,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 - zhenyi.eth (owner) - [@soczhenyi](https://twitter.com/soczhenyi)
 - 0xSilence (owner) - [@0xsilence](https://twitter.com/0xsilence)
+- Masa (owner) - [@drmaasaa](https://twitter.com/drmaasaa)
 - 2fr0gs (maintainer) - [@richardfrog](https://twitter.com/richardfrog)
 - SalutMo (maintainer)
 
